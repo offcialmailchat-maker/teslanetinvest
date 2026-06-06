@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Space Innovation Summit</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0a0f1f;
+    color:white;
+}
+
+header{
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#050914;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+    url('https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?auto=format&fit=crop&w=1400&q=80');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 35px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:70px 0;
+}
+
+.card{
+    background:#121a2f;
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:25px;
+}
+
+.card h2{
+    margin-bottom:15px;
+}
+
+form input,
+form select{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+}
+
+footer{
+    background:#050914;
+    text-align:center;
+    padding:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Space Innovation Summit</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Speakers</a>
+        <a href="#">Schedule</a>
+        <a href="#">Register</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <h1>Space Innovation Summit 2026</h1>
+
+    <p>
+        Join aerospace enthusiasts, engineers, investors,
+        and innovators for a unique event focused on the
+        future of space exploration and technology.
+    </p>
+
+    <a href="#register" class="btn">
+        Register Now
+    </a>
+
+</section>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Special Guest Session</h2>
+
+        <p>
+            Featured speakers and special guests may participate
+            in panel discussions, Q&A sessions, and networking
+            opportunities. Attendance and participation are
+            subject to confirmation.
+        </p>
+
+    </div>
+
+    <div class="card" id="register">
+
+        <h2>Meet & Greet Interest Registration</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Full Name"
+                required>
+
+            <input
+                type="email"
+                placeholder="Email Address"
+                required>
+
+            <input
+                type="tel"
+                placeholder="Phone Number"
+                required>
+
+            <select required>
+                <option value="">
+                    Select Ticket Type
+                </option>
+
+                <option>
+                    General Admission
+                </option>
+
+                <option>
+                    VIP Experience
+                </option>
+
+                <option>
+                    Premium Networking Pass
+                </option>
+            </select>
+
+            <button type="submit">
+                Submit Registration
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Space Innovation Summit</p>
+    <p>
+        This website template is for event registration purposes.
+        Guest appearances are subject to official confirmation.
+    </p>
+</footer>
+
+</body>
+</html>
