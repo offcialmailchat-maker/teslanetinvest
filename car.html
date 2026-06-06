@@ -1,0 +1,198 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Promo Center</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#222;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url('https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&w=1400&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.btn{
+    background:#e11d48;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:6px;
+    display:inline-block;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:60px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.cars{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.car{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.car img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.car-content{
+    padding:20px;
+}
+
+.old-price{
+    text-decoration:line-through;
+    color:#888;
+}
+
+.new-price{
+    color:#16a34a;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.discount{
+    color:#e11d48;
+    font-weight:bold;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">EV Promo Center</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Inventory</a>
+        <a href="#">Promotions</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Electric Vehicle Promotion Event</h1>
+    <p>Limited-time offers on select premium electric vehicles.</p>
+    <a href="#" class="btn">Browse Offers</a>
+</section>
+
+<div class="container">
+
+    <h2 class="section-title">Featured Promotions</h2>
+
+    <div class="cars">
+
+        <div class="car">
+            <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=900&q=80">
+            <div class="car-content">
+                <h3>Tesla Model 3</h3>
+                <p class="old-price">$42,000</p>
+                <p class="new-price">$37,900</p>
+                <p class="discount">Save $4,100</p>
+            </div>
+        </div>
+
+        <div class="car">
+            <img src="https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?auto=format&fit=crop&w=900&q=80">
+            <div class="car-content">
+                <h3>Tesla Model Y</h3>
+                <p class="old-price">$49,000</p>
+                <p class="new-price">$44,500</p>
+                <p class="discount">Save $4,500</p>
+            </div>
+        </div>
+
+        <div class="car">
+            <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=900&q=80">
+            <div class="car-content">
+                <h3>Tesla Model S</h3>
+                <p class="old-price">$79,000</p>
+                <p class="new-price">$73,900</p>
+                <p class="discount">Save $5,100</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Contact Sales Team</p>
+    <p>Phone: +2349055656328</p>
+    <p>© 2026 EV Promo Center</p>
+</footer>
+
+</body>
+</html>
+```
